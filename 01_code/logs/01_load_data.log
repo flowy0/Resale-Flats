@@ -1,0 +1,26 @@
+INFO:root:/Users/g/Dropbox/DS_Notebooks/Exploring Resale Flat/data/raw/
+INFO:root:
+
+INFO:root:/Users/g/Dropbox/DS_Notebooks/Exploring Resale Flat/data/raw/resale-flat-prices-based-on-registration-date-from-mar-2012-to-dec-2014.csv
+INFO:root:
+
+INFO:root:/Users/g/Dropbox/DS_Notebooks/Exploring Resale Flat/data/raw/resale-flat-prices-based-on-approval-date-1990-1999.csv
+INFO:root:
+
+INFO:root:/Users/g/Dropbox/DS_Notebooks/Exploring Resale Flat/data/raw/resale-flat-prices-based-on-registration-date-from-jan-2017-onwards.csv
+INFO:root:
+
+INFO:root:/Users/g/Dropbox/DS_Notebooks/Exploring Resale Flat/data/raw/resale-flat-prices-based-on-approval-date-2000-feb-2012.csv
+INFO:root:
+
+INFO:root:/Users/g/Dropbox/DS_Notebooks/Exploring Resale Flat/data/raw/resale-flat-prices-based-on-registration-date-from-jan-2015-to-dec-2016.csv
+INFO:root:
+
+INFO:root:     month        town flat_type block        street_name storey_range  floor_area_sqm      flat_model  lease_commence_date  resale_price remaining_lease
+0  2012-03  ANG MO KIO    2 ROOM   172   ANG MO KIO AVE 4     06 TO 10            45.0        Improved                 1986      250000.0             NaN
+1  2012-03  ANG MO KIO    2 ROOM   510   ANG MO KIO AVE 8     01 TO 05            44.0        Improved                 1980      265000.0             NaN
+2  2012-03  ANG MO KIO    3 ROOM   610   ANG MO KIO AVE 4     06 TO 10            68.0  New Generation                 1980      315000.0             NaN
+3  2012-03  ANG MO KIO    3 ROOM   474  ANG MO KIO AVE 10     01 TO 05            67.0  New Generation                 1984      320000.0             NaN
+4  2012-03  ANG MO KIO    3 ROOM   604   ANG MO KIO AVE 5     06 TO 10            67.0  New Generation                 1980      321000.0             NaN
+INFO:root:
+
