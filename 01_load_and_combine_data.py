@@ -13,21 +13,32 @@ InteractiveShell.ast_node_interactivity = "all"
 #%%
 
 #%%
-data_dir = "data"
 import os
-main_path = "/Users/g/Dropbox/DS_Notebooks/Exploring Resale Flat/"
-directory = os.path.join(main_path,"data_dir")
+print(os.getcwd())
 
-print(directory)
+raw_dir = "data/raw"
+processed_dir = "data/processed"
+#main_path = os.getcwd()
+
+
+#print(directory)
+#%%
+#https://github.com/ekapope/Combine-CSV-files-in-the-folder/blob/master/Combine_CSVs.py
+
+print(os.getcwd()+raw_dir)
+os.chdir(os.getcwd()+raw_dir)
+
+extension = 'csv'
+all_filenames = [i for i in glob.glob('*.{}'.format(extension))]
+print(all_filenames)
+
+#combine all files in the list
+#combined_csv = pd.concat([pd.read_csv(f) for f in all_filenames ])
+#export to csv
+#combined_csv.to_csv( processed_dir+"combined_csv", index=False, encoding='utf-8-sig')
+
+
 #%%
 
-#%%
-glued_data = pd.DataFrame()
-for file_name in glob.glob(directory+'*.csv'):
-    print(file_name)
-    x = pd.read_csv(file_name, low_memory=False)
-    print(x.head())
-    glued_data = pd.concat([glued_data,x],axis=0)
 
-print(glued_data.head())
 #%%
