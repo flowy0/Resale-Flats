@@ -1,0 +1,11 @@
+terminal command references:
+
+echo "# Data-for-Resale-Flats-in-Singapore" >> README.md
+git init
+
+git add README.md
+git commit -m "added README"
+git remote set-url origin https://github.com/flowy-data/Data-for-Resale-Flats-in-Singapore
+
+git push --set-upstream origin master
+
