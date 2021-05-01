@@ -1,8 +1,0 @@
-archive/
-backup*/
-data/
-.vscode/
-.ipynb_checkpoints/
-
-*.csv
-*.pyc
