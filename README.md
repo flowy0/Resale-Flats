@@ -10,10 +10,10 @@ Exploring Resale Flats
 ## About <a name = "about"></a>
 
 This is a project looking to do the following:
-Extract data using an API
-Create Data Visualisations
-Data Cleaning/Categorisation
-Create a predictive/explanatory model on the house prices
+- Extract data using an API
+- Create Data Visualisations
+- Data Cleaning/Categorisation
+- Create a predictive/explanatory model on the house prices
 
 ## Getting Started <a name = "getting_started"></a>
 
@@ -21,30 +21,25 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
-
+Setup your local environment
 ```
-Give examples
+conda create -n py39 python=3.9
+conda activate py39
+pip install pandas 
 ```
 
-### Installing
+### Installing (WIP)
 
 A step by step series of examples that tell you how to get a development env running.
 
 Say what the step will be
 
-```
-Give the example
-```
 
-And repeat
 
-```
-until finished
-```
+
 
 End with an example of getting some data out of the system or using it for a little demo.
 
-## Usage <a name = "usage"></a>
+## Usage (WIP) <a name = "usage"></a>
 
 Add notes about how to use the system.
